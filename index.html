@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel de Gastos</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header>
+  <h1>Painel de Gastos</h1>
+  <p class="sub">Envie um arquivo CSV com as colunas <code>data</code>, <code>descricao</code>, <code>categoria</code> e <code>valor</code>.</p>
+</header>
+<main>
+  <section class="cartao controles">
+    <label class="botao" for="arquivo">Escolher arquivo CSV</label>
+    <input type="file" id="arquivo" accept=".csv,text/csv">
+    <button type="button" id="carregar-exemplo" class="botao secundario">Carregar exemplo</button>
+    <span id="status" role="status">Nenhum arquivo carregado.</span>
+  </section>
+
+  <section class="cartao filtros">
+    <h2>Filtro por período</h2>
+    <div class="linha">
+      <label>Data inicial <input type="date" id="data-inicial"></label>
+      <label>Data final <input type="date" id="data-final"></label>
+      <button type="button" id="limpar-filtro" class="botao secundario">Limpar filtro</button>
+    </div>
+  </section>
+
+  <section class="cartao total">
+    <h2>Total gasto</h2>
+    <p id="total-geral" class="valor-grande">R$ 0,00</p>
+    <p id="qtd-lancamentos" class="sub">0 lançamentos</p>
+  </section>
+
+  <section class="cartao">
+    <h2>Total por categoria</h2>
+    <table id="tabela-categorias">
+      <thead><tr><th>Categoria</th><th class="num">Lançamentos</th><th class="num">Total</th></tr></thead>
+      <tbody><tr><td colspan="3" class="vazio">Sem dados.</td></tr></tbody>
+    </table>
+  </section>
+
+  <section class="cartao">
+    <h2>Total por mês</h2>
+    <canvas id="grafico" width="800" height="320" aria-label="Gráfico de barras com o total por mês"></canvas>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

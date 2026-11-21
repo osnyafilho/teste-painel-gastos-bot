@@ -1,0 +1,31 @@
+data,descricao,categoria,valor
+2026-06-02,Supermercado Bom Preço,Alimentação,412.37
+2026-06-05,Aluguel junho,Moradia,"1.850,00"
+2026-06-09,Combustível,Transporte,230.50
+2026-06-14,Farmácia,Saúde,87.90
+2026-06-20,Cinema,Lazer,64.00
+2026-06-27,Conta de luz,Moradia,198.45
+2026-07-03,Supermercado Bom Preço,Alimentação,"389,12"
+2026-07-05,Aluguel julho,Moradia,1850.00
+2026-07-08,Uber,Transporte,42.80
+2026-07-12,Restaurante,Alimentação,135.60
+2026-07-18,Consulta médica,Saúde,320.00
+2026-07-25,Show,Lazer,180.00
+2026-08-02,Feira,Alimentação,96.40
+2026-08-05,Aluguel agosto,Moradia,1850.00
+2026-08-10,Combustível,Transporte,"245,75"
+2026-08-15,Curso online,Educação,299.90
+2026-08-22,Padaria,Alimentação,38.25
+2026-08-29,Internet,Moradia,119.90
+2026-09-01,Supermercado Bom Preço,Alimentação,455.08
+2026-09-05,Aluguel setembro,Moradia,1850.00
+2026-09-11,Manutenção do carro,Transporte,"1.120,00"
+2026-09-16,Academia,Saúde,129.00
+2026-09-23,Livros,Educação,142.30
+2026-09-28,Viagem fim de semana,Lazer,780.00
+2026-10-03,Supermercado Bom Preço,Alimentação,402.66
+2026-10-05,Aluguel outubro,Moradia,1850.00
+2026-10-09,Ônibus,Transporte,52.00
+2026-10-14,Exames,Saúde,210.40
+2026-10-21,Material escolar,Educação,"186,90"
+2026-10-30,Conta de água,Moradia,74.35
