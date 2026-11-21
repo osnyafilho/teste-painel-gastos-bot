@@ -25,3 +25,11 @@ Cabeçalho obrigatório: `data,descricao,categoria,valor`
 - separador: vírgula (`,`) ou ponto e vírgula (`;`)
 
 Veja `exemplo.csv` (30 lançamentos fictícios de junho a outubro de 2026).
+
+## Teste automatizado
+
+`python3 testes/teste_playwright.py <url> [print.png] [print-filtro.png]` abre a página com Playwright,
+envia o `exemplo.csv`, compara os totais com um cálculo independente em Python, aplica o filtro e
+verifica que não há `console.error`.
+
+Prévia publicada: https://teste-painel-gastos-bot.vercel.app/
